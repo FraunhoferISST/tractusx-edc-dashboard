@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Validator" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+    <option name="MAIN_CLASS_NAME" value="org.eclipse.edc.boot.system.runtime.BaseRuntime" />
+    <module name="cx-policy-validator.tx-memory-connector.main" />
+    <option name="PROGRAM_PARAMETERS" value="--log-level=DEBUG" />
+    <projectPathOnTarget name="projectPathOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/tmp/tmp.Zm8N8t35ww , stderr=}/edc-dashboard" />
+    <target name="@@@LOCAL@@@" />
+    <option name="VM_PARAMETERS" value="-Dedc.fs.config=&quot;cx-policy-validator/tx-memory-connector/config.properties&quot;" />
+    <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
