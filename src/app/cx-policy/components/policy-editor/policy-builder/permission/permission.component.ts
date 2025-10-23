@@ -1,6 +1,7 @@
-/*******************************************************************************
+/*
  * Copyright (c) 2023 Bayerische Motoren Werke Aktiengesellschaft (BMW AG)
  * Copyright (c) 2023 Contributors to the Eclipse Foundation
+ * Copyright (c) 2025 Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.
  *
  * See the NOTICE file(s) distributed with this work for additional
  * information regarding copyright ownership.
@@ -16,11 +17,7 @@
  * under the License.
  *
  * SPDX-License-Identifier: Apache-2.0
- *
- * Contributors:
- *    Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Catena-X Next Policy Builder
- *
- ******************************************************************************/
+ */
 
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import {
