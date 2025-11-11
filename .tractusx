@@ -1,0 +1,7 @@
+product: "eclipse-tractusx.github.io"
+leadingRepository: "https://github.com/eclipse-tractusx/tractusx-edc-dashboard"
+repoCategory: "support"
+repositories:
+- name: "tractusx-edc-dashboard"
+  usage: "EDC Dashboard - Policy Builder"
+  url: "https://github.com/eclipse-tractusx/tractusx-edc-dashboard"
