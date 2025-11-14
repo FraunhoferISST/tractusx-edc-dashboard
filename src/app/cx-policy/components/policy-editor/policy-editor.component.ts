@@ -112,7 +112,7 @@ export class PolicyEditorComponent implements OnInit, OnDestroy {
 
   private isSamePolicy(a: PolicyConfiguration, b: PolicyConfiguration): boolean {
     return (
-      this.formatService.formatPolicy(this.formatService.toJsonLd(a, this.currentFormat)) ==
+      this.formatService.formatPolicy(this.formatService.toJsonLd(a, this.currentFormat)) ===
       this.formatService.formatPolicy(this.formatService.toJsonLd(b, this.currentFormat))
     );
   }
