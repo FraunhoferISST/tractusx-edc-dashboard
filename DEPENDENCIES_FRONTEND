@@ -274,7 +274,7 @@ npm/npmjs/-/glob-parent/5.1.2, ISC, approved, clearlydefined
 npm/npmjs/-/glob-parent/6.0.2, ISC, approved, clearlydefined
 npm/npmjs/-/glob-to-regex.js/1.2.0, Apache-2.0, approved, clearlydefined
 npm/npmjs/-/glob-to-regexp/0.4.1, BSD-2-Clause, approved, clearlydefined
-npm/npmjs/-/glob/10.5.0, CC-BY-SA-4.0 AND ISC, approved, clearlydefined
+npm/npmjs/-/glob/10.5.0, ISC AND CC-BY-SA-4.0, approved, #24937
 npm/npmjs/-/glob/7.2.3, ISC AND (CC-BY-SA-4.0 AND ISC) AND (ISC AND MIT) AND CC-BY-SA-4.0, approved, #19366
 npm/npmjs/-/global-dirs/3.0.1, MIT, approved, clearlydefined
 npm/npmjs/-/globals/14.0.0, MIT, approved, clearlydefined
@@ -543,7 +543,7 @@ npm/npmjs/-/p-map/4.0.0, MIT, approved, clearlydefined
 npm/npmjs/-/p-map/7.0.4, MIT, approved, #24666
 npm/npmjs/-/p-retry/6.2.1, MIT, approved, clearlydefined
 npm/npmjs/-/package-json-from-dist/1.0.1, BlueOak-1.0.0, approved, clearlydefined
-npm/npmjs/-/pacote/21.0.0, ISC, approved, clearlydefined
+npm/npmjs/-/pacote/21.0.0, ISC, approved, #24955
 npm/npmjs/-/parent-module/1.0.1, MIT, approved, clearlydefined
 npm/npmjs/-/parse-json/5.2.0, MIT, approved, clearlydefined
 npm/npmjs/-/parse-node-version/1.0.1, MIT, approved, #24797
