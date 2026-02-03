@@ -20,7 +20,7 @@
 group = "de.fraunhofer.isst.dst.cx.validator"
 version = "0.0.2"
 
-val edcVersion = "0.15.1"
+val edcVersion = "0.14.1"
 val txVersion = "0.11.2"
 
 
@@ -39,12 +39,13 @@ dependencies {
   implementation("org.eclipse.edc:controlplane-dcp-bom:${edcVersion}")
   implementation("org.eclipse.edc:jersey-providers-lib:${edcVersion}")
   implementation("org.eclipse.edc:management-api-lib:${edcVersion}")
+  implementation("org.eclipse.edc:identity-trust-core:${edcVersion}")
+  implementation("org.eclipse.edc:identity-trust-sts-remote-client:${edcVersion}")
 
   implementation("org.eclipse.tractusx.edc:cx-policy:${txVersion}")
   implementation("org.eclipse.tractusx.edc:json-ld-core:${txVersion}")
   implementation("org.eclipse.tractusx.edc:bpn-validation-core:${txVersion}")
   implementation("org.eclipse.tractusx.edc:bdrs-client:${txVersion}")
-
 }
 
 tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar> {
