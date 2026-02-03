@@ -24,7 +24,7 @@ import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
-import org.eclipse.edc.connector.controlplane.api.management.policy.model.PolicyValidationResult;
+import org.eclipse.edc.connector.controlplane.policy.spi.PolicyValidationResult;
 import org.eclipse.edc.connector.controlplane.policy.spi.PolicyDefinition;
 import org.eclipse.edc.connector.controlplane.services.spi.policydefinition.PolicyDefinitionService;
 import org.eclipse.edc.spi.EdcException;
