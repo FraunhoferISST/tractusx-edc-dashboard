@@ -49,7 +49,7 @@ jobs:
           ./gradlew tx-memory-connector:dependencies \
               | grep -Poh "(?<=\-\-\- ).*" \
               | grep -Pv "\([c\*]\)" \
-              | perl -pe 's/([\w\.\-]+):([\w\.\-]+):(?:[\w\.\-]+ -> )?([\w\.\-]+).*$/$1:$2:$3/gmi;t' \
+              | perl -pe 's/([\w\.\-]+):([\w\.\-]+):(?:[^ ]+ -> )?([\w\.\-]+).*$/$1:$2:$3/gmi;t' \
               | sort -u > dependency-list
       - name: Run dash
         id: run-dash
